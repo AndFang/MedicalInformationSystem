@@ -1,0 +1,93 @@
+Data is stored in data.txt in the project directory
+Our test cases tests functionality and error checking of the MIS
+It includes correct as well as wrong input to see if the system responds correctly
+
+---Testing start screen---
+1.
+Tests what happens if the name of a file that doesn't exist is used
+2.
+Tests what happens if the file exists but the format of the data is incorrect
+3.
+Tests what happens if the file exists and has the correct format
+---Testing adding new patient---
+1.
+Tests what happens if a field is left blank
+2.
+Tests what happens if a field has an incorrect value
+3.
+Add Patient: 
+- Dylan
+- White
+- 1 Uconn Way
+- 111-111-1111
+- 1-1-2000
+- Private
+- 100
+- Adult
+- Jon Walsh
+- 222-222-2222
+- None
+- None
+
+---Testing deleting a patient---
+1.
+Tests what happens if a field is left blank
+2.
+Tests what happens if input doesn't match any patient
+3. 
+Delete patient:
+- Mata
+- 1984-6-12
+4. 
+Try to delete patient again
+- Mata
+- 1984-6-12
+
+---Testing find and displaying a patient---
+1.
+Tests what happens if a field is left blank
+2.
+Tests what happens if input doesn't match any patient
+3.
+Search patient:
+- White
+- 1-1-2000
+Try to search for deleted patient:
+- Mata
+- 1984-6-12
+
+---Testing modifying a patient---
+1.
+Tests what happens if a field is left blank
+2.
+Tests what happens if input doesn't match any patient
+3.
+Try to modify a patient with wrong value:
+- Change Patient Type to Teen
+- White
+- 1-1-2000
+4.
+Modify patient:
+- Change Address to 1 Connecticut Drive
+- White
+- 1-1-2000
+
+---Testing searching the database---
+1.
+Tests what happens if a field is left blank
+2.
+Tests what happens if no patient has input data value for the choosen field
+3. 
+Search for all patients with Peanuts as allergy
+4. 
+Search for all patients with None as allergy
+
+---Testing view data of patients in database---
+1.
+Test if data is loaded in a text file
+2. 
+See if the patient Dylan White is in the database as well as the changes made to the patient
+
+---Testing if changed data is saved---
+1.
+Exit the current program and load up a new instance of the program using the same data file and search for patient Dylan White
